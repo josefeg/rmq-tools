@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+docopt = "==0.6.2"
+flake8 = "==3.7.7"
+pika = "==1.0.0"
+requests = "==2.21.0"
+Jinja2 = "==2.10.1"
+Pygments = "==2.3.1"
+
+[requires]
+python_version = "3.7"
