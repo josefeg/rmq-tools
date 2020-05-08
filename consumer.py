@@ -35,7 +35,7 @@ def msg_consumer(channel, method, properties, body):
     print('Routing key: \033[1m{}\033[0m'.format(method.routing_key))
 
     formatted_body = json.dumps(json.loads(body), indent=4)
-    print(highlight(formatted_body, lexers.JsonLexer(), formatters.TerminalFormatter()))
+    print(highlight(formatted_body, lexers.JsonLexer(), formatters.TerminalFormatter(bg="dark")))
     print('\n\n')
 
     channel.basic_ack(delivery_tag=method.delivery_tag)
