@@ -9,7 +9,7 @@ verify_ssl = true
 docopt = "==0.6.2"
 flake8 = "==3.7.7"
 pika = "==1.0.0"
-requests = "==2.21.0"
+requests = "==2.31.0"
 Jinja2 = "==2.11.3"
 Pygments = "==2.7.4"
 
